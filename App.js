@@ -30,9 +30,6 @@ export default function App() {
         renderItem={renderName}
         keyExtractor={(item) => item.name}
       />
-      <ScrollView>
-        <Text style={styles.title}>This is a footer</Text>
-      </ScrollView>
     </SafeAreaView>
   );
 
